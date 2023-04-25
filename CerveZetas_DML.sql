@@ -37,10 +37,10 @@ values ('pablob@gmail.com', 'Pablo', 'Beltrán', '114', 600000004, SYSDATE, TO_D
 
 
 INSERT INTO CerveZetas_Producto (cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, marca) 
-values (010, 60, 'Happy Holidays', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Rubia', 20.75, 'Pack_Especial', 001);
+values (010, 60, 'Happy Holidays', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Rubia', 20.75, 'Pack Especial', 001);
 
 INSERT INTO CerveZetas_Producto (cod_producto, stock, descripcion, admin_crea, admin_modifica, fecha_mod, fecha_creacion, Categoria, precio, TipoProducto, marca) 
-values (020, 70, 'Sant Patrick`s', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Malta', 14.23, 'Pack_Eventual', 002);
+values (020, 70, 'Sant Patrick`s', 'pabloverdu@admin.es', 'pabloverdu@admin.es', SYSDATE, SYSDATE, 'Malta', 14.23, 'Pack Eventual', 002);
 
 /*Cambiar admin_modifica por pabloverdu@admin.es*/
 
