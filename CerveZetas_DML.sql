@@ -58,13 +58,13 @@ values (040, 200, 'Cerveza dignidad','pabloverdu@admin.es', 'pabloverdu@admin.es
 
 
 INSERT INTO CerveZetas_Direccion (codigo_direccion, email_usuario, numero, Municipio, CodigoPostal, provincia, tipoVia, TipoDireccion, nombre) 
-values (111, 'mario@gmail.com', 12, 'Elda', 03600, 'Alicante', 'Calle', 'Casa', 'Mario Martinez');
+values (111, 'mario@gmail.com', 12, 'Elda', 03600, 'Alicante', 'Calle', 'Casa', 'nombre de calle');
 
 INSERT INTO CerveZetas_Direccion (codigo_direccion, email_usuario, numero, Municipio, CodigoPostal, provincia, tipoVia, TipoDireccion, nombre)
-values (222, 'pablon@gmail.com', 13, 'Elda', 03600, 'Alicante', 'Avenida', 'Casa', 'Pablo Navarro');
+values (222, 'pablon@gmail.com', 13, 'Elda', 03600, 'Alicante', 'Avenida', 'Casa', 'nombre de calle');
 
 INSERT INTO CerveZetas_Direccion (codigo_direccion, email_usuario, numero, Municipio, CodigoPostal, provincia, tipoVia, TipoDireccion, nombre)
-values (333, 'pablob@gmail.com', 14, 'Petrer', 03610, 'Alicante', 'Plaza', 'Trabajo', 'Pablo Beltran');
+values (333, 'pablob@gmail.com', 14, 'Petrer', 03610, 'Alicante', 'Plaza', 'Trabajo', 'nombre de calle');
 
 
 /*Tabla Pedido*/
