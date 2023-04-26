@@ -78,13 +78,12 @@ create table CerveZetas_Pedido_Factura(
     num_factura number(10),
     fecha_factura date,
     direccion number(3) not null,
-    email_cliente varchar2(20) not null,
     cliente varchar2(20) not null,
     precio_total number(7,2),
     
 
     constraint pk_pedido_factura primary key (cod_pedido, num_factura),
-    constraint fk_CZ_facturas foreign key (direccion, email_cliente) references CerveZetas_Direccion,
+    constraint fk_CZ_facturas foreign key (direccion, cliente) references CerveZetas_Direccion,
     constraint fk_cliente_pedido foreign key (cliente) references CerveZetas_Usuario
 );
 
