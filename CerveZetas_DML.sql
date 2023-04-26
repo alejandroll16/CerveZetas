@@ -68,14 +68,14 @@ values (333, 'pablob@gmail.com', 14, 'Petrer', 03610, 'Alicante', 'Plaza', 'Trab
 /*Tabla Pedido*/
 
 
-INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, email_cliente, cliente, precio_total)
-values(111, 2323, SYSDATE, 111, 'mario@gmail.com', 'mario@gmail.com', 200.4);
+INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, cliente, precio_total)
+values(111, 2323, SYSDATE, 111, 'mario@gmail.com', 200.4);
 
-INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, email_cliente, cliente, precio_total)
-values(121, 2121, SYSDATE, 222, 'pablon@gmail.com', 'pablon@gmail.com', 250.5);
+INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, cliente, precio_total)
+values(121, 2121, SYSDATE, 222, 'pablon@gmail.com', 250.5);
 
-INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, email_cliente, cliente, precio_total)
-values(131, 2424, SYSDATE, 333, 'pablob@gmail.com', 'pablob@gmail.com', 270.8);
+INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, cliente, precio_total)
+values(131, 2424, SYSDATE, 333, 'pablob@gmail.com', 270.8);
 
 
 
