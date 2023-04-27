@@ -12,7 +12,7 @@ INSERT INTO CerveZetas_Marca (codigo, nombre) values (006, 'Voll Damn');
 
 
 /*Actualizar abajo Mario -> Cliente*/
-/*Tabla Usuario*/
+/*Tabla Usuar@*/
 
 
 
