@@ -16,8 +16,8 @@ INSERT INTO CerveZetas_Marca (codigo, nombre) values (006, 'Voll Damn');
 
 
 
-INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios) 
-values ('pabloverdu@admin.es', 'Pablo', 'Verdu', '1234', 600000001, SYSDATE, TO_DATE('31/12/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Admin');
+INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
+values ('pabloverdu@admin.es', 'Pablo', 'Verdu', '1234', 600000001, SYSDATE, TO_DATE('31/12/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Admin','Tarjeta');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
 values ('mario@gmail.com', 'Mario', 'Martínez', '112', 600000002, SYSDATE, TO_DATE('16/12/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Admin', 'PayPal');
@@ -25,8 +25,8 @@ values ('mario@gmail.com', 'Mario', 'Martínez', '112', 600000002, SYSDATE, TO_D
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
 values ('pablon@gmail.com', 'Pablo', 'Navarro', '113', 600000003, SYSDATE, TO_DATE('12/07/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Cliente', 'Tarjeta');
 
-INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios) 
-values ('pablob@gmail.com', 'Pablo', 'Beltrán', '114', 600000004, SYSDATE, TO_DATE('03/05/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Visitante');
+INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
+values ('pablob@gmail.com', 'Pablo', 'Beltrán', '114', 600000004, SYSDATE, TO_DATE('03/05/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Visitante','PayPal');
 
 
 
