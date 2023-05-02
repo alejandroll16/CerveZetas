@@ -17,7 +17,7 @@ create table CerveZetas_Usuario(
     ultima_conexion date,
     fecha_nacimiento date,
     foto varchar2(200),
-    tipo_usuarios varchar2(20) not null,
+    tipo_usuarios varchar2(20),
     metodo_pago varchar2(20),
 
     CHECK (tipo_usuarios in('Cliente', 'Admin', 'Visitante')),
