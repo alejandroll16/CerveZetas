@@ -39,7 +39,7 @@ create table CerveZetas_Producto(
     precio number(5,2) not null,
     TipoProducto varchar2(20) not null,
 
-    CHECK (TipoProducto in('Pack Eventual', 'Pack Especial', 'Cubos', 'Cervezas')),
+    CHECK (TipoProducto in('Pack_Eventual', 'Pack_Especial', 'Cubos', 'Cervezas')),
     CHECK (Categoria in('Rubia', 'Malta', 'Tostada')),
 
     constraint fk_Admin_crea foreign key (admin_crea) references CerveZetas_Usuario,
