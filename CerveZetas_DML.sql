@@ -17,16 +17,16 @@ INSERT INTO CerveZetas_Marca (codigo, nombre) values (006, 'Voll Damn');
 
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('pabloverdu@admin.es', 'Pablo', 'Verdu', 'Holamundo111', 600000001, SYSDATE, TO_DATE('31/12/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Admin','Tarjeta');
+values ('pabloverdu@admin.es', 'Pablo', 'Verdu', 'Holamundo111', 600000001, SYSDATE, TO_DATE('31/12/2001', 'DD/MM/YYYY'), 'https://e7.pngegg.com/pngimages/312/283/png-clipart-man-s-face-avatar-computer-icons-user-profile-business-user-avatar-blue-face.png', 'Admin','Tarjeta');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('mario@gmail.com', 'Mario', 'Martínez', 'Holamundo112', 600000002, SYSDATE, TO_DATE('16/12/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Admin', 'PayPal');
+values ('mario@gmail.com', 'Mario', 'Martínez', 'Holamundo112', 600000002, SYSDATE, TO_DATE('16/12/2001', 'DD/MM/YYYY'), 'https://e7.pngegg.com/pngimages/136/22/png-clipart-user-profile-computer-icons-girl-customer-avatar-angle-heroes-thumbnail.png', 'Admin', 'PayPal');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('pablon@gmail.com', 'Pablo', 'Navarro', 'Holamundo113', 600000003, SYSDATE, TO_DATE('12/07/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Cliente', 'Tarjeta');
+values ('pablon@gmail.com', 'Pablo', 'Navarro', 'Holamundo113', 600000003, SYSDATE, TO_DATE('12/07/2001', 'DD/MM/YYYY'), 'https://e7.pngegg.com/pngimages/348/800/png-clipart-man-wearing-blue-shirt-illustration-computer-icons-avatar-user-login-avatar-blue-child-thumbnail.png', 'Cliente', 'Tarjeta');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('pablob@gmail.com', 'Pablo', 'Beltrán', 'Holamundo114', 600000004, SYSDATE, TO_DATE('03/05/2001', 'DD/MM/YYYY'), 'URL_IMAGEN', 'Visitante','PayPal');
+values ('pablob@gmail.com', 'Pablo', 'Beltrán', 'Holamundo114', 600000004, SYSDATE, TO_DATE('03/05/2001', 'DD/MM/YYYY'), 'https://e7.pngegg.com/pngimages/953/222/png-clipart-computer-icons-avatar-business-user-profile-avatar-heroes-logo-thumbnail.png', 'Visitante','PayPal');
 
 
 
@@ -56,13 +56,13 @@ values (040, 200, 'Cerveza dignidad','pabloverdu@admin.es', 'pabloverdu@admin.es
 
 
 INSERT INTO CerveZetas_Direccion (codigo_direccion, email_usuario, numero, Municipio, CodigoPostal, provincia, tipoVia, TipoDireccion, nombre) 
-values (111, 'mario@gmail.com', 12, 'Elda', 03600, 'Alicante', 'Calle', 'Casa', 'nombre de calle');
+values (111, 'mario@gmail.com', 12, 'Elda', 03600, 'Alicante', 'Calle', 'Casa', 'García Vaquero');
 
 INSERT INTO CerveZetas_Direccion (codigo_direccion, email_usuario, numero, Municipio, CodigoPostal, provincia, tipoVia, TipoDireccion, nombre)
-values (222, 'pablon@gmail.com', 13, 'Elda', 03600, 'Alicante', 'Avenida', 'Casa', 'nombre de calle');
+values (222, 'pablon@gmail.com', 13, 'Elda', 03600, 'Alicante', 'Avenida', 'Casa', 'Fray Luis de Granada');
 
 INSERT INTO CerveZetas_Direccion (codigo_direccion, email_usuario, numero, Municipio, CodigoPostal, provincia, tipoVia, TipoDireccion, nombre)
-values (333, 'pablob@gmail.com', 14, 'Petrer', 03610, 'Alicante', 'Plaza', 'Trabajo', 'nombre de calle');
+values (333, 'pablob@gmail.com', 14, 'Petrer', 03610, 'Alicante', 'Plaza', 'Trabajo', 'de la Constitución');
 
 
 /*Tabla Pedido*/
