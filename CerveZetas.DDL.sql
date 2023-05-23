@@ -16,7 +16,7 @@ create table CerveZetas_Usuario(
     telefono number(9),
     ultima_conexion date,
     fecha_nacimiento date,
-    foto varchar2(200),
+    foto varchar2(500),
     tipo_usuarios varchar2(20),
     metodo_pago varchar2(20),
 
