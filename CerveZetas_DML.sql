@@ -1,4 +1,3 @@
-
 INSERT INTO CerveZetas_Marca (codigo, nombre) values (001, 'Desesperado');
 INSERT INTO CerveZetas_Marca (codigo, nombre) values (002, 'Koronao');
 INSERT INTO CerveZetas_Marca (codigo, nombre) values (003, 'CruzCiudad');
@@ -66,28 +65,28 @@ values (3, 'pablob@gmail.com', 14, 'Petrer', 03610, 'Alicante', 'Plaza', 'Trabaj
 
 
 INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, cliente, precio_total)
-values(1, 1, SYSDATE, 111, 'mario@gmail.com', 200.4);
+values(1, 1, SYSDATE, 1, 'mario@gmail.com', 200.4);
 
 INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, cliente, precio_total)
-values(2, 2, SYSDATE, 222, 'pablon@gmail.com', 250.5);
+values(2, 2, SYSDATE, 2, 'pablon@gmail.com', 250.5);
 
 INSERT INTO CerveZetas_Pedido_Factura (cod_pedido, num_factura, fecha_factura, direccion, cliente, precio_total)
-values(3, 3, SYSDATE, 333, 'pablob@gmail.com', 270.8);
+values(3, 3, SYSDATE, 3, 'pablob@gmail.com', 270.8);
 
 
 
 INSERT INTO CerveZetas_Pedido_Producto (cod_pedido, num_factura, producto, precio, cantidad)
-values (1, 1, '040', 20.8, 12);
+values (1, 1, '1', 20.8, 12);
 
 INSERT INTO CerveZetas_Pedido_Producto (cod_pedido, num_factura, producto, precio, cantidad)
-values (2, 2, '030', 70.95, 5);
+values (2, 2, '3', 70.95, 5);
 
 INSERT INTO CerveZetas_Pedido_Producto (cod_pedido, num_factura, producto, precio, cantidad)
-values (3, 3, '020', 40.75, 2);
+values (3, 3, '3', 40.75, 2);
 
 
 
 UPDATE CerveZetas_Usuario SET tipo_usuarios = 'Cliente' WHERE email = 'mario@gmail.com';
 UPDATE CerveZetas_Direccion SET Municipio = 'Petrer', CodigoPostal = 03610 WHERE email_usuario = 'mario@gmail.com';
-UPDATE CerveZetas_Producto SET admin_modifica = 'pabloverdu@admin.es' WHERE cod_producto = '030';
+UPDATE CerveZetas_Producto SET admin_modifica = 'pabloverdu@admin.es' WHERE cod_producto = '3';
 UPDATE CerveZetas_Marca SET nombre = 'Mohou' WHERE codigo = 003;
