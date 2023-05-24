@@ -17,16 +17,16 @@ INSERT INTO CerveZetas_Marca (codigo, nombre) values (006, 'Voll Damn');
 
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('pabloverdu@admin.es', 'Pablo', 'Verdu', 'Holamundo111', 600000001, SYSDATE, TO_DATE('31/12/2001', 'DD/MM/YYYY'), 'file:///C:/Users/likep/Desktop/CerveZetas/pv.png', 'Admin','Tarjeta');
+values ('pabloverdu@admin.es', 'Pablo', 'Verdu', 'Holamundo111', 600000001, SYSDATE, TO_DATE('31/12/2001', 'DD/MM/YYYY'), 'https://i.ibb.co/Km5dJ6L/pv.png', 'Admin','Tarjeta');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('mario@gmail.com', 'Mario', 'Martínez', 'Holamundo112', 600000002, SYSDATE, TO_DATE('16/12/2001', 'DD/MM/YYYY'), 'file:///C:/Users/likep/Desktop/CerveZetas/M.png', 'Admin', 'PayPal');
+values ('mario@gmail.com', 'Mario', 'Martínez', 'Holamundo112', 600000002, SYSDATE, TO_DATE('16/12/2001', 'DD/MM/YYYY'), 'https://i.ibb.co/Zh6z8M2/M.png', 'Admin', 'PayPal');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('pablon@gmail.com', 'Pablo', 'Navarro', 'Holamundo113', 600000003, SYSDATE, TO_DATE('12/07/2001', 'DD/MM/YYYY'), 'file:///C:/Users/likep/Desktop/CerveZetas/pn.png', 'Cliente', 'Tarjeta');
+values ('pablon@gmail.com', 'Pablo', 'Navarro', 'Holamundo113', 600000003, SYSDATE, TO_DATE('12/07/2001', 'DD/MM/YYYY'), 'https://i.ibb.co/Z6xtnn9/pn.png', 'Cliente', 'Tarjeta');
 
 INSERT INTO CerveZetas_Usuario (email, nombre, apellidos, contrasena, telefono, ultima_conexion, fecha_nacimiento, foto, tipo_usuarios, metodo_pago) 
-values ('pablob@gmail.com', 'Pablo', 'Beltrán', 'Holamundo114', 600000004, SYSDATE, TO_DATE('03/05/2001', 'DD/MM/YYYY'), 'file:///C:/Users/likep/Desktop/CerveZetas/pb.png', 'Visitante','PayPal');
+values ('pablob@gmail.com', 'Pablo', 'Beltrán', 'Holamundo114', 600000004, SYSDATE, TO_DATE('03/05/2001', 'DD/MM/YYYY'), 'https://i.ibb.co/my84J5v/pb.png', 'Visitante','PayPal');
 
 
 
