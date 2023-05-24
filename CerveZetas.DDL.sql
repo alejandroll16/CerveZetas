@@ -5,6 +5,7 @@
 
 create table CerveZetas_Marca(
     codigo number(5) primary key,
+    foto varchar2(200),
     nombre varchar2(20)
 );
 
@@ -38,7 +39,7 @@ create table CerveZetas_Producto(
     Categoria varchar2(20) not null,
     precio number(5,2) not null,
     TipoProducto varchar2(20) not null,
-    foto varchar2(200),
+    
 
     CHECK (TipoProducto in('Pack_Eventual', 'Pack_Especial', 'Cubos', 'Cervezas')),
     CHECK (Categoria in('Rubia', 'Malta', 'Tostada')),
