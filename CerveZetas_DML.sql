@@ -1,9 +1,9 @@
-INSERT INTO CerveZetas_Marca (codigo, nombre) values (001, 'Desesperado');
-INSERT INTO CerveZetas_Marca (codigo, nombre) values (002, 'Koronao');
-INSERT INTO CerveZetas_Marca (codigo, nombre) values (003, 'CruzCiudad');
-INSERT INTO CerveZetas_Marca (codigo, nombre) values (004, 'Cervezas Alabhama');
-INSERT INTO CerveZetas_Marca (codigo, nombre) values (005, 'Paula-Ven');
-INSERT INTO CerveZetas_Marca (codigo, nombre) values (006, 'CashVerg');
+INSERT INTO CerveZetas_Marca (codigo, foto, nombre) values (001, 'https://i.ibb.co/N64CksJ/beer1.png' ,'Desesperado');
+INSERT INTO CerveZetas_Marca (codigo, foto, nombre) values (002, 'https://i.ibb.co/2YZ84n4/beer6.png', 'Koronao');
+INSERT INTO CerveZetas_Marca (codigo, foto, nombre) values (003, 'https://i.ibb.co/T2h8BsW/beer2.png', 'CruzCiudad');
+INSERT INTO CerveZetas_Marca (codigo, foto, nombre) values (004, 'https://i.ibb.co/6DHr5ns/beer3.png', 'Cervezas Alabhama');
+INSERT INTO CerveZetas_Marca (codigo, foto, nombre) values (005, 'https://i.ibb.co/PtJ9VdS/beer4.png', 'Paula-Ven');
+INSERT INTO CerveZetas_Marca (codigo, foto, nombre) values (006, 'https://i.ibb.co/KqFgtQV/beer5.png', 'CashVerg');
 
 
 
